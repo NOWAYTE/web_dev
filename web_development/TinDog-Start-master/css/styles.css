@@ -1,0 +1,171 @@
+body{
+    text-align: center
+}
+/* heading */
+.big-heading{
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+.cta-header{
+    padding: 7% 15%;
+}
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+    text-align: left;
+}
+    
+
+h1, h2, h3, h4, h5, h6{
+    font-family:'Montserrat-Bold' 
+}
+h2{
+    font-weight: bold;
+
+}
+
+p{
+    color: grey;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/* navigation bar */
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.nav-item{
+    padding: 0px 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: Montserrat-light;
+    color: whitesmoke;
+}
+
+.navbar-brand{
+    font-family: 'Sacramento', cursive;
+    font-size: 4.0rem;
+    font-weight: bold;
+    color: whitesmoke;
+}
+/* download button */
+
+.download-button{
+    margin: 5% 3% 5% 0%;
+    border-radius: 10px;
+}
+/* title image  */
+.title-image{
+    width: 23%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 24%;   
+}
+/* feautures */
+#features{
+   background-color: white;
+   position: relative;
+   /* z-index: 1; */
+
+}
+.feature-title{
+    font-size: 1.5rem;
+    
+}
+
+.feature-box{
+    
+    padding: 5%;
+    
+}
+
+/* icons */
+.icons{
+    color: #ef8172;
+    margin: 1rem;
+}
+.icons:hover{
+    color: #ff4c68;
+    transform:scale(1.2) rotate(400deg) ;
+}
+/* #testimonials */
+#testimonials{
+    background-color: #ff4c68;
+    color: white;
+
+}
+.testimonaial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.image{
+    border-radius: 25px;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+@media (max-width: 1090px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        width: 60%;
+        position: static;
+        transform: rotate(0deg);
+    }
+}
+
+
+/* press */
+#press{
+    background-color: #ff4c68;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    /* margin: 20px 20px 50px; */
+    margin-top: 0px;
+    margin-bottom: 50px;
+    
+   
+}
+/* pricing-section */
+#pricing{
+    padding: 110px;
+}
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+.carousel-item{
+    padding: 7% 15%;
+
+}
+/* CTA */
+#cta{
+    background-color: #ff4c68;
+
+}
+
+#footer{
+    background-color: white;
+}
+.footer-icons{
+    padding: 1.0% ;
+}

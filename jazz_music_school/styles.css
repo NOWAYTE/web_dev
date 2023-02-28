@@ -1,0 +1,146 @@
+bidy{
+    font-family: 'Montserrat';
+}
+#title{
+    /* background-color: #D5CABD; */
+    background-image: linear-gradient(to right top, #d5cabd, #a4928f, #6e6065, #38343c, #020a13);
+}
+h1{
+    font-family: 'Montserrat-Black';
+    font-size: 3.0rem;
+    line-height: 1.5;
+    color: black;
+}
+.container-fluid{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 15% !important;
+    padding-right: 15%  !important;
+}
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 2.5rem !important;
+    line-height: 1.5;
+}
+.navbar{
+    padding: 0 0 4.5rem !important;
+}
+.nav-item{
+    padding-left: 18px;
+    padding-bottom: 18px;
+
+}
+.nav-link{
+    font-size: 1.2rem !important;
+    font-family: 'Montserrat-light';
+    color: white;
+}
+@media (max-width:1040px) {
+    .title-image{
+        position: static;
+        width: 60%;
+    }
+    
+}
+.logo{
+    color: #936C00;
+}
+
+/* download button */
+
+.download-button{
+    margin: 5% 3% 5% 0%;
+    text-align: center;
+}
+p{
+    color: #936C00;
+}
+
+/* title-image */
+/* .title-image{
+} */
+h3{
+    font-family: 'Montserrat-Bold';
+    font-size: 2rem !important;
+    font-weight: bold !important;
+    
+}
+h2{
+    font-family: 'Montserrat-bold';
+}
+
+/* feature */
+#features{
+    padding-top: 7%;
+    padding-bottom: 7%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.features-box{
+    text-align: center;
+    padding: 5% !important;
+}
+.icon{
+    padding: 7% 15% !important;
+
+}
+.icon:hover{
+    color: #936C00;
+}
+
+/* testimonials */
+#testimonials{
+    text-align: center;
+    background-image: linear-gradient(to right top, #a4928f, #9e8b88, #988481, #937e7a, #8d7773);
+
+
+}
+.testimonial-image{
+    width: 16%;
+    border-radius: 90%;
+}
+.testimonial-image1{
+    width: 18.99%;
+    border-radius: 90%;
+}
+.testimonials-text{
+    font-size: 2.5rem !important;
+}
+.carousel-item{
+    padding: 7% 15% !important;
+}
+
+#plan{
+    padding: 100px !important;
+    text-align: center;
+}
+.card{
+    margin-top: 5%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+#cta{
+    padding: 7% 15%;
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(background.jpg);
+    background-position: center;
+
+}
+.cta-heading{
+    font-family:'Montserrat-Bold';
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #a4928f;
+}
+.cta-image{
+    width: 50%;
+}
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+.icons{
+    margin: 1.5%;
+}

@@ -11,8 +11,8 @@ app.get('/', function (req, res) {
   app.post('/', function (req, res) {
     console.log(req.body.cityName)
 
-    const query = req.body.cityName;
-    const apiKey = '8d5e0fe3c73511005b2c15aa0b162729'
+    const query = req.body.cityName
+    const apiKey = 'your key'
     const units = 'metric'
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${query}&units=${units}&appid=${apiKey}`
     https.get(url, function (response) {
@@ -25,7 +25,9 @@ app.get('/', function (req, res) {
         const icon = weatherData.weather[0].icon
         const img = 'https://openweathermap.org/img/wn/' + icon + '@2x.png'
 
-        res.write(`<h1>The weather temp in  ${query} is ${temp} degrees celcius<h1>`)
+        res.write(
+          `<h1>The weather temp in  ${query} is ${temp} degrees celcius<h1>`
+        )
         res.write(`<h2><br>the weather is currenlty ${description}<h2>`)
         res.write(`<img src = ${img} >`)
         res.send()
